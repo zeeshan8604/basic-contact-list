@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    width: 26rem;
+    margin: auto;
+}
+#contact-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+ #contact-container{
+    list-style: none;
+     width: 25rem;
+     margin: auto;
+} 
+.contact{
+    padding: 3px 10px;
+    display: flex;
+    background-color: #6f92f9;
+    border: 1px solid white;
+    align-items: center;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    width: 26rem;
+ }
+.delete-btn{
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+#form{
+    margin: auto;
+    text-align: center;
+    margin-left: 8%;
+    }
+#form input{
+    height: 1.5rem;
+    border: 2px solid blueviolet;
+    padding: 1px;
+    margin-bottom: 2px;
+}
+#form button{
+    height: 1.8rem;
+    background-color: black;
+    color: white;
+}
+#name{
+    width: 35%;
+}
+#phone{
+    width: 35%;
+}
+
